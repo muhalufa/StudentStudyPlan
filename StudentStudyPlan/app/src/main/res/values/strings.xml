@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StudentStudyPlan</string>
+    <string name="tafeSALogo">TafeSA Red Logo</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="title_activity_information_page">InformationPage</string>
+</resources>
