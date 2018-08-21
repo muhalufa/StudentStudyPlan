@@ -8,8 +8,6 @@ import android.widget.EditText;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import javax.xml.transform.Source;
-
 public class Login extends Activity {
 
     @Override
