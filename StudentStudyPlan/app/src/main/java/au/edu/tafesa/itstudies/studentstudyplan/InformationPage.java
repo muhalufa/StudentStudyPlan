@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
-import au.edu.tafesa.itstudies.studentstudyplan.dao.StudentStudyPlanDetailsDAO;
+import au.edu.tafesa.itstudies.studentstudyplan.DAO.StudentStudyPlanDetailsDAO;
 public class InformationPage extends Activity {
     public static StudentStudyPlanDetailsDAO studentStudyPlanDetailsDAO;
        String studentID="000868858";
@@ -19,7 +19,7 @@ public class InformationPage extends Activity {
         ArrayList<HashMap> maps = new ArrayList<HashMap>();
 
       //  studentStudyPlanDetailsDAO.open();
-        maps =  studentStudyPlanDetailsDAO.getRawStudentStudyPlanDetailsDAO(studentID);
+        //maps =  studentStudyPlanDetailsDAO.getRawStudentStudyPlanDetailsDAO(studentID);
 
         TextView txtResult = findViewById(R.id.textView);
      //   txtResult.setText(Arrays.toString(maps);
